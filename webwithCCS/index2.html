@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Style Example</title>
+    <style>
+        /* Default unordered list with disc bullets */
+        ul.disc-list {
+            list-style-type: disc;
+        }
+
+        /* Unordered list with circle bullets */
+        ul.circle-list {
+            list-style-type: circle;
+        }
+
+        /* Ordered list with upper-roman numbering */
+        ol.roman-list {
+            list-style-type: upper-roman;
+        }
+
+        /* Ordered list with lower-alpha numbering */
+        ol.alpha-list {
+            list-style-type: lower-alpha;
+        }
+
+        /* List items with custom image bullets */
+        ul.image-list li {
+            list-style-image: url('https://via.placeholder.com/10'); /* Example image */
+        }
+
+        /* Positioning the list item marker inside */
+        ul.inside-list {
+            list-style-position: inside;
+        }
+
+        /* Positioning the list item marker outside (default) */
+        ul.outside-list {
+            list-style-position: outside;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Unordered List (disc)</h2>
+    <ul class="disc-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Unordered List (circle)</h2>
+    <ul class="circle-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Ordered List (upper-roman)</h2>
+    <ol class="roman-list">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+
+    <h2>Ordered List (lower-alpha)</h2>
+    <ol class="alpha-list">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+
+    <h2>Unordered List with Image as Bullet</h2>
+    <ul class="image-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Unordered List with Inside Positioning</h2>
+    <ul class="inside-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Unordered List with Outside Positioning</h2>
+    <ul class="outside-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+</body>
+</html>

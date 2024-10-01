@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .card {
+            width: 300px;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: antiquewhite;
+            box-shadow: 0 5px 15px gray;
+            margin: 42px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .card-desc {
+            text-align: center;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            height: 550px;
+            justify-content: space-evenly;
+        }
+
+        .nav-bar {
+            background-color: #373737;
+            padding: 15px;    
+            position: fixed;
+            width: 100%;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        a:hover {
+            background-color: gray;
+        }
+
+        .vid-container {
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="index.html"> Home</a>
+        <a href="index2.html" target="_blank"> About</a>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="img/dog.png">
+            <div class="card-desc">
+                <h3>TITLE 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel libero, atque dolore impedit, cum labore omnis at vero perferendis quos a similique harum facilis et amet velit, veniam expedita vitae.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/dog.png">
+            <div class="card-desc">
+                <h3>TITLE 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel libero, atque dolore impedit, cum labore omnis at vero perferendis quos a similique harum facilis et amet velit, veniam expedita vitae.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/dog.png">
+            <div class="card-desc">
+                <h3>TITLE 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel libero, atque dolore impedit, cum labore omnis at vero perferendis quos a similique harum facilis et amet velit, veniam expedita vitae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-container">
+        <video controls style="width: 50%; border-radius: 10px;">
+            <source src="img/rakrakan.mp4">
+        </video>
+    </div>
+</body>
+</html>
